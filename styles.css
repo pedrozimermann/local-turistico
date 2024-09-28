@@ -10,12 +10,12 @@
   font-size: 62.5%;
   --background-default: #f5f4f0;
   --border-primary: #d9d9d9;
-  --text-primary:#1b1b1b;
+  --text-primary: #1b1b1b;
   --text-secondary: #333333;
   --text-tertiary: #696969;
   --text-headline: #e1624f;
   --accent-blue: #0c51a7;
-  --accent-orange: #E95E10;
+  --accent-orange: #e95e10;
   --accent-pink: #e5245e;
   --accent-purple: #591b98;
 }
@@ -23,4 +23,114 @@
 body {
   font-family: "Open Sans", sans-serif;
   font-size: 1.6rem;
+}
+
+#container {
+  width: 1120px;
+  margin: 88px auto 65px;
+}
+
+img {
+  width: 100%;
+  border-radius: 28px;
+}
+
+strong {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+#title-page {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+#title-page p {
+  color: var(--accent-orange);
+  font-weight: bold;
+}
+
+#title-page h1 {
+  color: var(--text-primary);
+  font-size: 3.6rem;
+  font-weight: bold;
+}
+
+#desc-image {
+  margin: 40px 0px 40px;
+}
+
+#desc-image p {
+  color: var(--text-primary);
+  font-size: 1.6rem;
+  margin-top: 24px;
+  text-align: center;
+  font-style: italic;
+}
+
+#title-list {
+  margin: 64px 0px 64px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+#title p {
+  color: var(--accent-orange);
+  font-weight: bold;
+  line-height: 22px;
+}
+
+#list {
+  display: flex;
+  flex-direction: column;
+  gap: 64px;
+  margin: 40px 0px 40px;
+}
+
+#content-card img {
+  margin-bottom: 20px;
+}
+
+#content-card h3 {
+  color: var(--text-primary);
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 4px;
+}
+
+.first-list li {
+  color: var(--accent-blue);
+  font-weight: bold;
+}
+
+.second-list li {
+  color: var(--accent-blue);
+  font-weight: bold;
+}
+
+.third-list li:nth-child(1) {
+  color: var(--accent-purple);
+  font-weight: bold;
+}
+
+.third-list li:nth-child(2) {
+  color: var(--accent-pink);
+  font-weight: bold;
+}
+
+.third-list li:nth-child(3) {
+  color: var(--accent-orange);
+  font-weight: bold;
+}
+
+#footer-description{
+  text-align: center;
+  padding-top: 40px;
+}
+
+footer{
+  color: var(--text-primary);
+  text-align: center;
+  margin-bottom: 48px;
 }
