@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+:root {
+  font-size: 62.5%;
+  --background-default: #f5f4f0;
+  --border-primary: #d9d9d9;
+  --text-primary:#1b1b1b;
+  --text-secondary: #333333;
+  --text-tertiary: #696969;
+  --text-headline: #e1624f;
+  --accent-blue: #0c51a7;
+  --accent-orange: #E95E10;
+  --accent-pink: #e5245e;
+  --accent-purple: #591b98;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.6rem;
+}
